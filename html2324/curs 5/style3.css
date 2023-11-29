@@ -1,0 +1,38 @@
+@media (max-width:640px) {    
+/*telefon*/
+h1{
+    color: blue;
+}
+#tab, #lap, #desk{
+    display: none;   
+}
+}
+
+@media (min-width:641px) and (max-width:767px){
+/*tableta*/
+h1{
+    color: salmon;
+}
+div:not(#tab){
+    display: none;
+}  
+}
+
+@media (min-width:768px) and (max-width: 1200px){
+/*laptop*/
+h1{
+    color:red;
+}
+#tab, #tel, #desk{
+    display: none;   
+}
+}
+@media (min-width:1201px ){
+ /*PC*/
+ h1{
+    color: gray;
+ }
+ #tab, #lap, #tel{
+    display: none;   
+}
+} 
